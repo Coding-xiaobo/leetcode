@@ -1,6 +1,4 @@
-package front_100;
-
-import java.util.List;
+package leetcode_1_10;
 
 class ListNode {
     int val;
@@ -22,6 +20,7 @@ class ListNode {
 class Solution_2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         /**
+         * lc 2 两数相加
          * 该题本质上就是大数相加的变种，学习如何利用t表示个位数和进位
          */
         ListNode res = new ListNode(-1);
