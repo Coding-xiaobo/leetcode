@@ -35,7 +35,7 @@ class Solution_2 {
             ;
             if (l2 != null) {
                 t += l2.val;
-                l2 = l2.next;
+                l2 = l2.next; //写到里面，不为空的时候再访问next
             }
             curr.next = new ListNode(t % 10);
             curr = curr.next;
