@@ -3,7 +3,7 @@ package front_100;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class Solution_1 {
     public int[] twoSum(int[] nums, int target) {
         /**
          * 哈希表查询的时间复杂度为O(1) 遍历的时间复杂度为O(n) 总时间复杂度为O(n)
@@ -26,7 +26,7 @@ class Solution {
 }
 public class No_1_two_sum {
     public static void main(String args[]) {
-        Solution s = new Solution();
+        Solution_1 s = new Solution_1();
         int[] nums = {2, 7, 10, 9};
         int target = 11;
         int[] res = s.twoSum(nums, target);
