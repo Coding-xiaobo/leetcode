@@ -7,6 +7,8 @@ for(StringBuilder row : rows) ans.append(row);
 ```java
 //快速创建数组
 new int[] {1,2,3};
+//数组求长度
+arr.length; //是属性 不是方法 字符串是length()方法
 ```
 ## 哈希表
 ```java
