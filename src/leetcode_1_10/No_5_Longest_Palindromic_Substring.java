@@ -1,6 +1,6 @@
 package leetcode_1_10;
 
-class solution_5 {
+class Solution_5 {
     public String longestPalindrome(String s) {
         /**
          * lc 5 最长回文字串
@@ -32,7 +32,7 @@ class solution_5 {
 public class No_5_Longest_Palindromic_Substring {
     public static void main(String[] args) {
         String s = "babad";
-        String res = new solution_5().longestPalindrome(s);
+        String res = new Solution_5().longestPalindrome(s);
         System.out.println(res);
     }
 }

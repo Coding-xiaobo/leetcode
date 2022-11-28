@@ -3,7 +3,7 @@ package leetcode_1_10;
 import java.util.ArrayList;
 import java.util.List;
 
-class solution_6 {
+class Solution_6 {
     public String convert(String s, int numRows) {
         /**
          * lc 6 Z字形变化
@@ -29,6 +29,6 @@ public class No_6_Zigzag_Conversion {
     public static void main(String[] args) {
         String s = "PAYPALISHIRING";
         int numRows = 4;
-        System.out.println(new solution_6().convert(s, numRows));
+        System.out.println(new Solution_6().convert(s, numRows));
     }
 }
